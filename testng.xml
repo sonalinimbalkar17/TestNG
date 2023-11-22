@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_Facebook">
+  <test thread-count="5" name="Test_Facebook">
+    <classes>
+      <class name="TestNG_XML.Demo2"/>
+      <class name="TestNG_XML.Demo3"/>
+      <class name="TestNG_XML.Demo1"/>
+    </classes>
+  </test> <!-- Test_Facebook -->
+</suite> <!-- Suite_Facebook -->
