@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumTestNG.IFrame">
+      <class name="testNG_framework.Dependency">
         <methods>
-          <include name="iFrametestCase2"/>
-          <include name="iFrametestCase3"/>
-          <include name="iFrametestCase1"/>
+          <include name="stopCar"/>
+          <include name="driveCar"/>
+          <include name="startCar"/>
         </methods>
-      </class> <!-- SeleniumTestNG.IFrame -->
+      </class> <!-- testNG_framework.Dependency -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
